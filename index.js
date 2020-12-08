@@ -22,7 +22,7 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:camthomp96@gmail.com");
+                    open("mailto:j.breda@outlook.com");
                     console.log("\nDone, see you soon.\n");
                 }
             },
@@ -38,19 +38,19 @@ const questions = [
 
 // Data for the card
 const data = {
-    name: chalk.bold.green("        Cameron Thompson"),
-    work: `${chalk.white("Student Software Developer")} ${chalk
+    name: chalk.bold.green("               Johannes Breda"),
+    work: `${chalk.white("Full Stack Web")} ${chalk
         .hex("#2b82b2")
-        .bold("BYU-I")}`,
-    blog: chalk.gray("https://dev.to/") + chalk.whiteBright("cdthomp1"),
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("DeveloperCam"),
-    github: chalk.gray("https://github.com/") + chalk.green("cdthomp1"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("cameron-thompson96"),
-    web: chalk.cyan("https://cameronthompson.io"),
-    npx: chalk.red("npx") + " " + chalk.white("cameronthompson"),
+        .bold("Developer")}`,
+    blog: chalk.gray("https://johannesbreda") + chalk.whiteBright(".com"),
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("HansBreda"),
+    github: chalk.gray("https://github.com/") + chalk.green("DutchBreda"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.whiteBright("hansbreda"),
+    web: chalk.cyan("https://hansbreda.com"),
+    npx: chalk.red("npx") + " " + chalk.white("johannes"),
 
-    labelWork: chalk.white.bold("       Work:"),
-    labelBlog: chalk.white.bold("     Blog:"),
+    labelWork: chalk.white.bold("      Study:"),
+    labelBlog: chalk.white.bold("       Blog:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
@@ -73,10 +73,10 @@ const me = boxen(
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.italic(
-            "I'm curious, enthusiastic and student most of the time."
+            "My daily routine:"
         )}`,
-        `${chalk.italic("The rest of the time I experiment with my code,")}`,
-        `${chalk.italic("to bring my ideas to life.")}`
+        `${chalk.italic("Get up. Be awesome. Go back to bed.....")}`,
+
     ].join("\n"),
     {
         margin: 1,
