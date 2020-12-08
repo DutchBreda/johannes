@@ -29,7 +29,7 @@ const questions = [
             {
                 name: "Just quit.",
                 value: () => {
-                    console.log("Good Bye!\n");
+                    console.log("Good Bye! Tot Ziens!\n");
                 }
             }
         ]
@@ -47,7 +47,7 @@ const data = {
     github: chalk.gray("https://github.com/") + chalk.green("DutchBreda"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.whiteBright("hansbreda"),
     web: chalk.cyan("https://hansbreda.com"),
-    npx: chalk.red("npx") + " " + chalk.white("johannes"),
+    npx: chalk.red("by") + " " + chalk.white("johannes"),
 
     labelWork: chalk.white.bold("      Study:"),
     labelBlog: chalk.white.bold("       Blog:"),
